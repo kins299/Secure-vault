@@ -9,3 +9,4 @@ jotdrop_labels: ["To do's"]
 - [ ] SoP for each process
 - [ ] Internal Team Hirarchy
 - [ ] Milestone Document for each program/process 
+- [ ] Finalize Technology Compliance Implementation Document for Enlighten capital 
