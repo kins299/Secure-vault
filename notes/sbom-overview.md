@@ -17,24 +17,29 @@ Software Bill of Materials (CycloneDX 1.6) and vulnerability scan results for En
 
 ## Latest result per app
 
+<!-- auto:latest -->
 | App | Run date | Commit | Components | Critical / High / Medium / Low | Folder |
 |---|---|---|---|---|---|
 | DeckTrail | 2026-11-03 09:42 UTC | `8991cd2` | 164 | 0 / 0 / 0 / 1 | `DeckTrail/2026-11-03_8991cd2_41613137668` |
 | One Pitch | 2026-11-02 10:52 UTC | `d755268` | 115 | 0 / 0 / 0 / 0 | `One Pitch/2026-11-02_d755268_41432257214` |
 | GH Notepad | 2026-11-03 09:33 UTC | `f6185f9` | 0 | 0 / 0 / 0 / 0 | `GH Notepad/2026-11-03_f6185f9_41611933676` |
-| Deal Room | 2026-11-05 14:29 UTC | `fc71ea5` | 358 | 2 / 8 / 7 / 5 | `Deal Room/2026-11-05_fc71ea5_42045155123` |
+| Deal Room | 2026-11-08 04:48 UTC | `1e521fe` | 357 | 0 / 0 / 0 / 0 | `Deal Room/2026-11-08_1e521fe_42448255337` |
+<!-- /auto:latest -->
 
 ## Notes
 
 - **DeckTrail:** remaining Low finding is deepmerge 4.3.1 (GHSA-gcqx-w48m-w2h4), accepted: no fix available, comes in through html-to-text. Review at the next routine update. The earlier postcss and zod findings were fixed on 1 Nov 2026 (postcss override, zod 4.6.6).
 - **One Pitch:** the 1 Nov 2026 runs at commit `5d99c9f` show 3 Critical and 11 High (Next.js 14.2.35). Fixed by the Next.js 15.5.28 upgrade; later runs at `d755268` are clean.
 - **GH Notepad:** zero third-party dependencies (Node built-ins only), so its SBOM lists no components and the scan has nothing to check.
-- **Deal Room:** first scan on 5 Nov 2026 found 2 Critical (dompurify 3.4.13, proxy-addr 2.0.7) and 8 High (vite, sharp, @grpc/grpc-js, body-parser, nanoid, source-map-js, dompurify); all have fixes available. Fix in progress on branch `fix-vulnerabilities` (package bumps and overrides, lockfile to be regenerated). Hosted on Google Cloud (Cloud Run) with Firebase Firestore; the SBOM covers npm packages only, not those services.
+- **Deal Room:** first scan on 5 Nov 2026 (`fc71ea5`) found 2 Critical (dompurify 3.4.13, proxy-addr 2.0.7) and 8 High (vite, sharp, @grpc/grpc-js, body-parser, nanoid, source-map-js, dompurify). Fixed on 5 to 8 Nov 2026 by bumping vite and sharp and overriding the vulnerable packages; the scan at `1e521fe` is clean. Hosted on Google Cloud (Cloud Run) with Firebase Firestore; the SBOM covers npm packages only, not those services.
 - The first DeckTrail scan (3 High, 2 Medium, 1 Low, run 41331762648) was made before files were archived and is recorded only in the register.
 - Each run produces a new file with its own timestamp, so the SHA-256 identifies one run's file, not a commit. Each run folder has a `SHA256SUMS` file.
 
 ## All runs
 
+This section and the table above are rebuilt automatically after every run. Edit only the Notes.
+
+<!-- auto:runs -->
 ### DeckTrail
 
 GitHub: `kins299/EC-VDR`
@@ -75,5 +80,7 @@ GitHub: `kins299/EC-Deal-Room-Latest-05.11.26-`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
-| 2026-11-05 14:29 UTC | `fc71ea5` | 358 | 2 / 8 / 7 / 5 | `115175d36777e1f3194a4be89ad35ddc7a7ae2cde52c8f60a28f7370052b2d6d` | 42045155123 | `Deal Room/2026-11-05_fc71ea5_42045155123` |
-| 2026-11-05 14:09 UTC | `fc71ea5` | 358 | 2 / 8 / 7 / 5 | `755ce2386783cf5b5d321f476850ad92357331bd1e9a0cfd7815d6a1e0d65a5c` | 42041920632 | `Deal Room/2026-11-05_fc71ea5_42041920632` |
+| 2026-11-08 04:48 UTC | `1e521fe` | 357 | 0 / 0 / 0 / 0 | `451d3d4b3d48b8e88ab1ba958cd5d0e58d18b23830d4eedf537658c79c2a89de` | 42448255337 | `Deal Room/2026-11-08_1e521fe_42448255337` |
+| 2026-11-05 14:28 UTC | `fc71ea5` | 358 | 2 / 8 / 7 / 5 | `115175d36777e1f3194a4be89ad35ddc7a7ae2cde52c8f60a28f7370052b2d6d` | 42045155123 | `Deal Room/2026-11-05_fc71ea5_42045155123` |
+| 2026-11-05 14:08 UTC | `fc71ea5` | 358 | 2 / 8 / 7 / 5 | `755ce2386783cf5b5d321f476850ad92357331bd1e9a0cfd7815d6a1e0d65a5c` | 42041920632 | `Deal Room/2026-11-05_fc71ea5_42041920632` |
+<!-- /auto:runs -->
