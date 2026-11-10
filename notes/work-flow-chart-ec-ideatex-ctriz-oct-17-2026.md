@@ -1,7 +1,7 @@
 ---
 title: "Work Flow Chart = EC-Ideatex-Ctriz - Oct 17, 2026"
+cover: https://images.unsplash.com/photo-1486854561807-38fc02359493?auto=format&fit=crop&w=2400&q=82
 ---
-
 Granola ID: b744b4a4-375a-43ed-a9c0-0e4fa3608081
 
 Date: Oct 17, 2026, 12:58 PM IST
