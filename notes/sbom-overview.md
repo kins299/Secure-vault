@@ -20,10 +20,10 @@ Software Bill of Materials (CycloneDX 1.6) and vulnerability scan results for En
 <!-- auto:latest -->
 | App | Run date | Commit | Components | Critical / High / Medium / Low | Folder |
 |---|---|---|---|---|---|
-| DeckTrail | 2026-11-10 05:18 UTC | `80ba5ff` | 180 | 0 / 0 / 0 / 1 | `DeckTrail/2026-11-10_80ba5ff_42761232783` |
-| One Pitch | 2026-11-10 05:18 UTC | `832b047` | 115 | 0 / 0 / 0 / 0 | `One Pitch/2026-11-10_832b047_42761266744` |
-| GH Notepad | 2026-11-10 05:18 UTC | `7253145` | 0 | 0 / 0 / 0 / 0 | `GH Notepad/2026-11-10_7253145_42761297172` |
-| Deal Room | 2026-11-10 05:17 UTC | `c231676` | 359 | 0 / 0 / 0 / 0 | `Deal Room/2026-11-10_c231676_42761196580` |
+| DeckTrail | 2026-11-13 02:51 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 1 | `DeckTrail/2026-11-13_10c23a2_43354976938` |
+| One Pitch | 2026-11-13 02:52 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `One Pitch/2026-11-13_22b62bf_43355063620` |
+| GH Notepad | 2026-11-13 02:52 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `GH Notepad/2026-11-13_eeda187_43355110014` |
+| Deal Room | 2026-11-13 02:53 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `Deal Room/2026-11-13_10bdbaa_43355192294` |
 <!-- /auto:latest -->
 
 ## Notes
@@ -46,6 +46,7 @@ GitHub: `kins299/EC-VDR`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-13 02:51 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 1 | `e51d1dd10d5a16d415d0acc57246888492f32da9ba41345e62313f3e404a37d7` | 43354976938 | `DeckTrail/2026-11-13_10c23a2_43354976938` |
 | 2026-11-10 05:18 UTC | `80ba5ff` | 180 | 0 / 0 / 0 / 1 | `bdc17bc97e5a4e71ace2dccca0abecfcefba64412542d7497574d10cd514d20f` | 42761232783 | `DeckTrail/2026-11-10_80ba5ff_42761232783` |
 | 2026-11-09 10:28 UTC | `2a3b9af` | 180 | 0 / 0 / 0 / 1 | `49dfbd2e54792bcc7f945f98c3efe6d3e2b1d3bde57cc1b4780289172f713ca5` | 42601060899 | `DeckTrail/2026-11-09_2a3b9af_42601060899` |
 | 2026-11-08 14:01 UTC | `2a3b9af` | 180 | 0 / 0 / 0 / 1 | `4145cc36dbda42dd12173dea8619bc2a63a8bfdafe1c84649beb8960c59ee830` | 42487665888 | `DeckTrail/2026-11-08_2a3b9af_42487665888` |
@@ -64,6 +65,7 @@ GitHub: `kins299/One-Pitch`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-13 02:52 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `1f7d7834866e8c5c258b7e3e18c5ac5afd7e91d8e7f3e90656b70ab970c91eee` | 43355063620 | `One Pitch/2026-11-13_22b62bf_43355063620` |
 | 2026-11-10 05:18 UTC | `832b047` | 115 | 0 / 0 / 0 / 0 | `a735f589a404742066248b33cabb586fd37a6fb4e4986cdeefe421516943e1e2` | 42761266744 | `One Pitch/2026-11-10_832b047_42761266744` |
 | 2026-11-09 11:17 UTC | `330c1d9` | 115 | 0 / 0 / 0 / 0 | `9e080bfa6033f793c325607b07c8f4248053b005799f578275da8836e2a07d15` | 42607794575 | `One Pitch/2026-11-09_330c1d9_42607794575` |
 | 2026-11-08 05:26 UTC | `330c1d9` | 115 | 0 / 0 / 0 / 0 | `4902772d93776d6f29985a68e25df3ed7497bdd1fcc91b2afed61297d4f95375` | 42450783928 | `One Pitch/2026-11-08_330c1d9_42450783928` |
@@ -81,6 +83,7 @@ GitHub: `kins299/Self-hosted-ai-note-taker`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-13 02:52 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `8443b79046bc77e6412c34670e896e68ad82604d015e409fe9f6042e2b3f85a3` | 43355110014 | `GH Notepad/2026-11-13_eeda187_43355110014` |
 | 2026-11-10 05:18 UTC | `7253145` | 0 | 0 / 0 / 0 / 0 | `4d040a66d04e016570939e5a4a751f2e551cecfbb6746445898c112b93c5c38b` | 42761297172 | `GH Notepad/2026-11-10_7253145_42761297172` |
 | 2026-11-09 10:43 UTC | `32dc59e` | 0 | 0 / 0 / 0 / 0 | `21d67d5635b18369a9eefc9306e7bfc08d2f91bd42565ff0379986b17557b294` | 42603045330 | `GH Notepad/2026-11-09_32dc59e_42603045330` |
 | 2026-11-08 05:26 UTC | `32dc59e` | 0 | 0 / 0 / 0 / 0 | `6a6f16fd7baddbfe41a32bc01b7c0a99ad7eaf49c285ee33cd859bd648cf5e05` | 42450786500 | `GH Notepad/2026-11-08_32dc59e_42450786500` |
@@ -96,6 +99,7 @@ GitHub: `kins299/EC-Deal-Room-Latest-05.11.26-`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-13 02:53 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `d038493f6a357124764f5cc4f534a7a7d076747cc77bdd8fc33191b6ac1210a4` | 43355192294 | `Deal Room/2026-11-13_10bdbaa_43355192294` |
 | 2026-11-10 05:17 UTC | `c231676` | 359 | 0 / 0 / 0 / 0 | `83a85fb5279cbefc606fba1a7cf6ec8b58390f677ac602dc8748de754a8ff34f` | 42761196580 | `Deal Room/2026-11-10_c231676_42761196580` |
 | 2026-11-10 05:13 UTC | `7a80d80` | 359 | 0 / 0 / 0 / 0 | `06a8ba6a3816aef9b283e2009d7fd784667714f523cedeb133a455d86d75af73` | 42760724036 | `Deal Room/2026-11-10_7a80d80_42760724036` |
 | 2026-11-09 10:59 UTC | `7a6d7a7` | 359 | 0 / 0 / 0 / 0 | `82079c16dc3cf1075c626f71f4e25ae1174182987eeb99418a43d7d3ec67ca12` | 42605230390 | `Deal Room/2026-11-09_7a6d7a7_42605230390` |
