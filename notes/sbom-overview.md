@@ -23,7 +23,7 @@ Software Bill of Materials (CycloneDX 1.6) and vulnerability scan results for En
 | DeckTrail | 2026-11-13 10:40 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 1 | `DeckTrail/2026-11-13_10c23a2_43410785077` |
 | One Pitch | 2026-11-13 10:24 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `One Pitch/2026-11-13_22b62bf_43408758226` |
 | GH Notepad | 2026-11-13 10:30 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `GH Notepad/2026-11-13_eeda187_43409588529` |
-| Deal Room | 2026-11-13 02:53 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `Deal Room/2026-11-13_10bdbaa_43355192294` |
+| Deal Room | 2026-11-13 10:49 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `Deal Room/2026-11-13_10bdbaa_43412023167` |
 <!-- /auto:latest -->
 
 ## Notes
@@ -102,6 +102,7 @@ GitHub: `kins299/EC-Deal-Room-Latest-05.11.26-`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-13 10:49 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `4dab88af0744beab8fb56edcdf0eac8970f2d84bf99084ba991a476ab198dda7` | 43412023167 | `Deal Room/2026-11-13_10bdbaa_43412023167` |
 | 2026-11-13 02:53 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `d038493f6a357124764f5cc4f534a7a7d076747cc77bdd8fc33191b6ac1210a4` | 43355192294 | `Deal Room/2026-11-13_10bdbaa_43355192294` |
 | 2026-11-10 05:17 UTC | `c231676` | 359 | 0 / 0 / 0 / 0 | `83a85fb5279cbefc606fba1a7cf6ec8b58390f677ac602dc8748de754a8ff34f` | 42761196580 | `Deal Room/2026-11-10_c231676_42761196580` |
 | 2026-11-10 05:13 UTC | `7a80d80` | 359 | 0 / 0 / 0 / 0 | `06a8ba6a3816aef9b283e2009d7fd784667714f523cedeb133a455d86d75af73` | 42760724036 | `Deal Room/2026-11-10_7a80d80_42760724036` |
