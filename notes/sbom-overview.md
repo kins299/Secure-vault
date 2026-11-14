@@ -21,7 +21,7 @@ Software Bill of Materials (CycloneDX 1.6) and vulnerability scan results for En
 | App | Run date | Commit | Components | Critical / High / Medium / Low | Folder |
 |---|---|---|---|---|---|
 | DeckTrail | 2026-11-13 10:40 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 1 | `DeckTrail/2026-11-13_10c23a2_43410785077` |
-| One Pitch | 2026-11-13 10:24 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `One Pitch/2026-11-13_22b62bf_43408758226` |
+| One Pitch | 2026-11-14 09:41 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `One Pitch/2026-11-14_22b62bf_43581697793` |
 | GH Notepad | 2026-11-13 10:30 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `GH Notepad/2026-11-13_eeda187_43409588529` |
 | Deal Room | 2026-11-13 10:49 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `Deal Room/2026-11-13_10bdbaa_43412023167` |
 <!-- /auto:latest -->
@@ -66,6 +66,7 @@ GitHub: `kins299/One-Pitch`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-14 09:41 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `26651d4d44e9751c07706076e03ea7ce646b45a2f51e99e78ec663a0f0b9be05` | 43581697793 | `One Pitch/2026-11-14_22b62bf_43581697793` |
 | 2026-11-13 10:24 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `d44b3ba4bcb57c86dc93c44ce7d7ad1378771e2e86a2d44cec2ed55d2d6ca12d` | 43408758226 | `One Pitch/2026-11-13_22b62bf_43408758226` |
 | 2026-11-13 02:52 UTC | `22b62bf` | 115 | 0 / 0 / 0 / 0 | `1f7d7834866e8c5c258b7e3e18c5ac5afd7e91d8e7f3e90656b70ab970c91eee` | 43355063620 | `One Pitch/2026-11-13_22b62bf_43355063620` |
 | 2026-11-10 05:18 UTC | `832b047` | 115 | 0 / 0 / 0 / 0 | `a735f589a404742066248b33cabb586fd37a6fb4e4986cdeefe421516943e1e2` | 42761266744 | `One Pitch/2026-11-10_832b047_42761266744` |
