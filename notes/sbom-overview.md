@@ -20,10 +20,10 @@ Software Bill of Materials (CycloneDX 1.6) and vulnerability scan results for En
 <!-- auto:latest -->
 | App | Run date | Commit | Components | Critical / High / Medium / Low | Folder |
 |---|---|---|---|---|---|
-| DeckTrail | 2026-11-17 11:33 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 0 | `DeckTrail/2026-11-17_10c23a2_44075097310` |
+| DeckTrail | 2026-11-18 11:15 UTC | `10c23a2` | 180 | 0 / 2 / 0 / 0 | `DeckTrail/2026-11-18_10c23a2_44293032395` |
 | One Pitch | 2026-11-18 10:56 UTC | `22b62bf` | 115 | 0 / 2 / 0 / 0 | `One Pitch/2026-11-18_22b62bf_44289968699` |
-| GH Notepad | 2026-11-17 11:28 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `GH Notepad/2026-11-17_eeda187_44074343974` |
-| Deal Room | 2026-11-17 11:41 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `Deal Room/2026-11-17_10bdbaa_44076251159` |
+| GH Notepad | 2026-11-18 11:08 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `GH Notepad/2026-11-18_eeda187_44291898468` |
+| Deal Room | 2026-11-18 11:28 UTC | `10bdbaa` | 359 | 0 / 1 / 0 / 0 | `Deal Room/2026-11-18_10bdbaa_44295011037` |
 <!-- /auto:latest -->
 
 ## Notes
@@ -46,6 +46,7 @@ GitHub: `kins299/EC-VDR`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-18 11:15 UTC | `10c23a2` | 180 | 0 / 2 / 0 / 0 | `993d3277f3fd443f3afa222895fdf3c18f276c4513bd0c335ad6670c4f084834` | 44293032395 | `DeckTrail/2026-11-18_10c23a2_44293032395` |
 | 2026-11-17 11:33 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 0 | `129c3242ca79a849225d2cc181381244b5e5276fb50e96fda7784915c6dc6543` | 44075097310 | `DeckTrail/2026-11-17_10c23a2_44075097310` |
 | 2026-11-16 10:45 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 1 | `2e614ae238785b4e5437e107ccb38872425a8dba85c9f550c87a2150578bca1a` | 43851594021 | `DeckTrail/2026-11-16_10c23a2_43851594021` |
 | 2026-11-15 10:29 UTC | `10c23a2` | 180 | 0 / 0 / 0 / 1 | `3d0764d7e1873b77b3fd71a95027f07716a2a6eeb17216750bac515ffadf6cab` | 43704294482 | `DeckTrail/2026-11-15_10c23a2_43704294482` |
@@ -94,6 +95,7 @@ GitHub: `kins299/Self-hosted-ai-note-taker`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-18 11:08 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `ac27b5b70074d901e078a4d515d9612e531bccc0fb115492fdbfd947d09acb33` | 44291898468 | `GH Notepad/2026-11-18_eeda187_44291898468` |
 | 2026-11-17 11:28 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `8b6cdd1a2b901fd38c17a690ad4cb38052106a75b39a7b40549dbcdb58dee90f` | 44074343974 | `GH Notepad/2026-11-17_eeda187_44074343974` |
 | 2026-11-16 10:38 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `3e0673504f93885b0da5a7dd68ba7d52ffcba22649d1b905fd59586588b496a1` | 43850617438 | `GH Notepad/2026-11-16_eeda187_43850617438` |
 | 2026-11-15 10:23 UTC | `eeda187` | 0 | 0 / 0 / 0 / 0 | `272f37319ca8f05e8e4c2561ac7250b54bd2848d6936853cf544c2ac3d956657` | 43703850723 | `GH Notepad/2026-11-15_eeda187_43703850723` |
@@ -115,6 +117,7 @@ GitHub: `kins299/EC-Deal-Room-Latest-05.11.26-`
 
 | Run date | Commit | Components | C / H / M / L | SBOM SHA-256 | Run ID | Folder |
 |---|---|---|---|---|---|---|
+| 2026-11-18 11:28 UTC | `10bdbaa` | 359 | 0 / 1 / 0 / 0 | `86b24c11c05f7cb3fd1a7b666e1343fb40cc04c4a6252232c8fb29a212c773be` | 44295011037 | `Deal Room/2026-11-18_10bdbaa_44295011037` |
 | 2026-11-17 11:41 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `fb06fd7ef9b162f180d4e5d5635564aab9ab0192bcd4bc7233fa9db2d1b5aa51` | 44076251159 | `Deal Room/2026-11-17_10bdbaa_44076251159` |
 | 2026-11-16 10:57 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `fcdc823a0fdd0f72505bfcdf0270b40383893317276d82925dc321a9dfec2b52` | 43853303144 | `Deal Room/2026-11-16_10bdbaa_43853303144` |
 | 2026-11-15 10:39 UTC | `10bdbaa` | 359 | 0 / 0 / 0 / 0 | `f4886ab76b05e1a59e33c5eb922929a9a66de85959285ab9d89d07f9fa109b9b` | 43705135196 | `Deal Room/2026-11-15_10bdbaa_43705135196` |
